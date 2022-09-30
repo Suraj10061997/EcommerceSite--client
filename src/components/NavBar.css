@@ -1,0 +1,27 @@
+.navbar-container{
+    display: flex;
+    justify-content: space-between;
+    background: rgb(107, 107, 224);
+}
+.title{
+    display:flex;
+    align-items: center;
+    color:white;
+    font-size: 3rem;
+    padding:0rem 1rem;
+}
+.navbar-container nav ul{
+    margin:0;
+    padding:0;
+    list-style-type:none;
+    display: flex;
+    height:100%;
+}
+.navbar-container nav ul .link{
+    text-decoration: none;
+    font-size: 1.5rem;
+    padding:1rem 2rem;
+}
+.navbar-container nav ul .link:hover{
+    background: rgb(11, 99, 222);
+}
